@@ -1,0 +1,62 @@
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+}
+
+
+#shares {
+  background-color: lightgrey;
+  color: grey;
+}
+
+.profile {
+  background-color: white;
+  margin: 1%;
+  max-width: 23%;
+}
+
+.picture {
+  position: relative;
+}
+
+.profile-pic {
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.profile-link {
+  max-width: 5%;
+  position: sticky;
+  z-index: 2;
+  left: -230;
+  top: -110;
+}
+
+.view-count {
+  max-width: 10%;
+  position: relative;
+  z-index: 3;
+  right: 30;
+  top: -110;
+}
+
+#profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user {
+  padding-left: 2%;
+}
